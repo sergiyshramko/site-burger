@@ -9,9 +9,9 @@ body {
 .container {
     width: 940px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .mistake {
     width: 1100px;
-    margin: 0 auto;
 }
