@@ -5,8 +5,13 @@ body, html {
 
 .wrapper {
     overflow: hidden;
-    min-height: 100%;
+    min-width: 1000px; /*размер шаблона*/
 
+}
+
+.containеr {
+    width: 1100px; /*размер контента*/
+    margin: 0 auto;
 }
 
 .test {
