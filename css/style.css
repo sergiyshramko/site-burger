@@ -3,9 +3,12 @@ body, html {
     height: 100%;
 }
 
+body {
+    background: gray;
+}
 .wrapper {
     overflow: hidden;
-    min-width: 800px; /*размер шаблона*/
+    min-width: 1000px; /*размер шаблона*/
 
 }
 
