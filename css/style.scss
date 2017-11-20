@@ -5,6 +5,10 @@ body {
 }
 
 .wrapper {
+    height: 150px;
+    width: 150px;
+    border: 1px dashed #000;
+    
     .container {
         width: 100px;
         height: 100px;
