@@ -11,4 +11,5 @@ body {
   width: 100px;
   height: 100px;
   border: 2px dotted #000;
-  background: green; }
+  background: green;
+  float: left; }
