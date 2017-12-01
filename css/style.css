@@ -1,20 +1,20 @@
-.wrap:after {
-  content: "";
+.social {
   display: block;
-  clear: both; }
+  margin-bottom: 20px;
+  width: 30px;
+  height: 30px; }
 
-body {
-  width: 100%;
-  height: 100%;
-  background: grey; }
+.social_social {
+  background: url("/img/fb.png") center center no-repeat; }
+  .social_social:hover {
+    background: url("/img/fb-hover.png") center center no-repeat; }
 
-.wrap {
-  padding: 10px;
-  border: 2px solid orange; }
+.social_social {
+  background: url("/img/vk.png") center center no-repeat; }
+  .social_social:hover {
+    background: url("/img/vk-hover.png") center center no-repeat; }
 
-.block {
-  width: 100px;
-  height: 100px;
-  border: 2px dotted #000;
-  background: green;
-  float: left; }
+.social_social {
+  background: url("/img/tw.png") center center no-repeat; }
+  .social_social:hover {
+    background: url("/img/tw-hover.png") center center no-repeat; }
