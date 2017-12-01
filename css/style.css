@@ -4,17 +4,17 @@
   width: 30px;
   height: 30px; }
 
-.social_social {
+.social_fb {
   background: url("/img/fb.png") center center no-repeat; }
-  .social_social:hover {
+  .social_fb:hover {
     background: url("/img/fb-hover.png") center center no-repeat; }
 
-.social_social {
+.social_vk {
   background: url("/img/vk.png") center center no-repeat; }
-  .social_social:hover {
+  .social_vk:hover {
     background: url("/img/vk-hover.png") center center no-repeat; }
 
-.social_social {
+.social_tw {
   background: url("/img/tw.png") center center no-repeat; }
-  .social_social:hover {
+  .social_tw:hover {
     background: url("/img/tw-hover.png") center center no-repeat; }

@@ -6,7 +6,7 @@
 }
 
 @each $social in (fb, vk, tw) {
-    .social_#{social} {
+    .social_#{$social} {
        background: url('/img/#{$social}.png') center center no-repeat;
     
         &:hover {
