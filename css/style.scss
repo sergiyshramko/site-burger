@@ -7,10 +7,10 @@
 
 @each $social in (fb, vk, tw) {
     .social_#{$social} {
-       background: url('https://github.com/sergiyshramko/site-burger/tree/master/img#{$social}.png') center center no-repeat;
+       background-image: url('https://github.com/sergiyshramko/site-burger/tree/master/img#{$social}.png') center center no-repeat;
     
         &:hover {
-             background: url('https://github.com/sergiyshramko/site-burger/tree/master/img#{$social}-hover.png') center center no-repeat;
+             background-image: url('https://github.com/sergiyshramko/site-burger/tree/master/img#{$social}-hover.png') center center no-repeat;
         }
     }
 }

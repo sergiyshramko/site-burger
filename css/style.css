@@ -5,16 +5,16 @@
   height: 128px; }
 
 .social_fb {
-  background: url("https://github.com/sergiyshramko/site-burger/tree/master/imgfb.png") center center no-repeat; }
+  background-image: url("https://github.com/sergiyshramko/site-burger/tree/master/imgfb.png") center center no-repeat; }
   .social_fb:hover {
-    background: url("https://github.com/sergiyshramko/site-burger/tree/master/imgfb-hover.png") center center no-repeat; }
+    background-image: url("https://github.com/sergiyshramko/site-burger/tree/master/imgfb-hover.png") center center no-repeat; }
 
 .social_vk {
-  background: url("https://github.com/sergiyshramko/site-burger/tree/master/imgvk.png") center center no-repeat; }
+  background-image: url("https://github.com/sergiyshramko/site-burger/tree/master/imgvk.png") center center no-repeat; }
   .social_vk:hover {
-    background: url("https://github.com/sergiyshramko/site-burger/tree/master/imgvk-hover.png") center center no-repeat; }
+    background-image: url("https://github.com/sergiyshramko/site-burger/tree/master/imgvk-hover.png") center center no-repeat; }
 
 .social_tw {
-  background: url("https://github.com/sergiyshramko/site-burger/tree/master/imgtw.png") center center no-repeat; }
+  background-image: url("https://github.com/sergiyshramko/site-burger/tree/master/imgtw.png") center center no-repeat; }
   .social_tw:hover {
-    background: url("https://github.com/sergiyshramko/site-burger/tree/master/imgtw-hover.png") center center no-repeat; }
+    background-image: url("https://github.com/sergiyshramko/site-burger/tree/master/imgtw-hover.png") center center no-repeat; }
