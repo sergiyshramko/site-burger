@@ -120,6 +120,11 @@ p {
   position: relative;
   height: 100%; }
 
+.logo__img {
+  display: block;
+  max-width: 90px;
+  max-height: 70px; }
+
 .best {
   background-image: url("../img/bg/best_bg.png");
   background-repeat: no-repeat;
