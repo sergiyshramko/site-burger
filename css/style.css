@@ -76,12 +76,12 @@ p {
   position: relative;
   min-height: 100%; }
 
+.empty {
+  height: 58px; }
+
 .footer {
   height: 58px;
   width: 100%; }
-
-.empty {
-  height: 58px; }
 
 .hero {
   background-image: url("../img/bg/hero_bg.png");
