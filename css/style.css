@@ -145,7 +145,8 @@ p {
 .logo__img {
   display: block;
   max-width: 90px;
-  max-height: 70px; }
+  max-height: 70px;
+  background: url("/img/logo.png") no-repeat; }
 
 .best {
   background-image: url("../img/bg/best_bg.png");
