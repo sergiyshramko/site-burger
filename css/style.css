@@ -101,6 +101,12 @@ p {
   -ms-flex-direction: column;
   flex-direction: column; }
 
+.section {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.31);
+  min-width: 940px;
+  min-height: 650px; }
+
 .footer {
   height: 58px;
   width: 100%; }
@@ -119,6 +125,22 @@ p {
   background-size: cover;
   position: relative;
   height: 100%; }
+
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 10px; }
 
 .logo__img {
   display: block;
