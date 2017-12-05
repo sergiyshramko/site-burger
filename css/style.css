@@ -105,6 +105,13 @@ p {
   height: 58px;
   width: 100%; }
 
+.footer__container:before, .footer__container:after {
+  content: "";
+  display: table; }
+
+.footer__container:after {
+  clear: both; }
+
 .hero {
   background-image: url("../img/bg/hero_bg.png");
   background-repeat: no-repeat;

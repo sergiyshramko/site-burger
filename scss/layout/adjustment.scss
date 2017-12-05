@@ -24,4 +24,8 @@
     width: 100%;
 }
 
+.footer__container {
+    @include clearfix;
+}
+
 
