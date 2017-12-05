@@ -103,6 +103,10 @@ ul {
   min-width: 940px;
   min-height: 650px; }
 
+.footer {
+  height: 58px;
+  width: 100%; }
+
 .hero {
   background-image: url("../img/bg/hero_bg.png");
   background-repeat: no-repeat;
@@ -125,10 +129,3 @@ ul {
   -ms-flex-align: center;
   align-items: center;
   padding-top: 10px; }
-
-.header__logo {
-  margin-right: auto; }
-
-.footer {
-  height: 58px;
-  width: 100%; }
