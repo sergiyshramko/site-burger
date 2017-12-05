@@ -72,17 +72,14 @@ ul {
   min-height: 100%;
   overflow: hidden; }
 
+.footer {
+  height: 58px;
+  margin-top: -58px;
+  width: 100%; }
+
 .hero {
   background-image: url("../img/bg/hero_bg.png");
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
   position: relative; }
-  
-.footer {
-  height: 58px;
-  margin-top: -58px;
-  width: 100%;
-  position: relative; }
-
-
