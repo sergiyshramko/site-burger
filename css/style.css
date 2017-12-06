@@ -145,7 +145,11 @@ p {
 
 /*скопировал*/
 .header__logo {
-  margin-right: auto; }
+  /* margin-right: auto;*/
+  background: url("/img/logo.png") 0 0 no-repeat;
+  width: 98px;
+  height: 74px;
+  display: block; }
 
 .nav {
   margin-right: rem(15px); }
