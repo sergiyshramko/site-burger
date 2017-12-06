@@ -17,11 +17,11 @@
 
 /*скопировал*/
 .header__logo {
- /* margin-right: auto;*/
- background: url('/img/logo.png') 0 0 no-repeat;
+ background: url('../img/logo.png') 0 0 no-repeat;
  width: 98px;
  height: 74px;
  display: block;
+ margin-right: auto;
 }
 
 .nav {
@@ -87,6 +87,10 @@
 }
 
 .hero__img { 
+  background: url('../img/content/drops.png') 0 0 no-repeat;
+  width: 451px;
+  height: 424px;
+  display: block;
   align-items: center;
 }
 
