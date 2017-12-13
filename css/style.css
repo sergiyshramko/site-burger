@@ -80,20 +80,16 @@ p {
   width: 940px;
   margin: 0 auto;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column; }
 
@@ -114,6 +110,11 @@ p {
   background-size: cover;
   position: relative;
   height: 100%; }
+
+.logo {
+  background: url("../img/logo.png");
+  width: 98px;
+  height: 74px; }
 
 .best {
   background-image: url("../img/bg/best_bg.png");
