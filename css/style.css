@@ -119,7 +119,7 @@ p {
 }
 */
 .hero__img {
-  background: url("/img/content/drops.png"); }
+  background: url("../img/content/drops.png"); }
 
 .best {
   background-image: url("../img/bg/best_bg.png");
