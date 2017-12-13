@@ -118,6 +118,9 @@ p {
   height: 74px;
 }
 */
+.hero__img {
+  background: url("/img/content/drops.png"); }
+
 .best {
   background-image: url("../img/bg/best_bg.png");
   background-repeat: no-repeat;
