@@ -99,15 +99,15 @@
 }
 
 .hero__img {
-  background: url('../img/content/drops.png');
+  background: url('../img/content/drops.png') 0 0 no-repeat;
   height: 424px;
   width: 451px;
   display: flex;
-  width: 48%;
+  width: 50%;
 }
 
 .hero__description {
-  width: 52%;
+  width: 50%;
 }
 
 .section__title {
