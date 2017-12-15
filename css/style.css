@@ -278,6 +278,8 @@ p {
   width: 30%;
   text-align: center;
   margin-right: 40px; }
+  .best__block:last-child {
+    margin-right: 0; }
 
 .block__icons {
   width: 100%;
