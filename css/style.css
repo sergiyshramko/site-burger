@@ -99,6 +99,24 @@ p {
   min-width: 940px;
   min-height: 650px; }
 
+.order__link {
+  background-color: #e25028;
+  padding: 10px 17px;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  vertical-align: middle;
+  display: inline-block;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  margin-top: 10px; }
+  .order__link:hover {
+    background-color: #cb411b; }
+
 .footer {
   height: 58px;
   width: 100%; }
@@ -187,24 +205,6 @@ p {
   align-items: center;
   width: 12%; }
 
-.order__link {
-  background-color: #e25028;
-  padding: 10px 17px;
-  border-radius: 5px;
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 13px;
-  vertical-align: middle;
-  display: inline-block;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s;
-  margin-top: 10px; }
-  .order__link:hover {
-    background-color: #cb411b; }
-
 .hero__content {
   width: 100%;
   display: -webkit-box;
@@ -249,3 +249,62 @@ p {
   background-size: cover;
   position: relative;
   height: 100%; }
+
+.section__title--best {
+  color: #2f3234; }
+
+.best__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin-top: 90px; }
+
+.icon__scroll {
+  margin-top: 80px; }
+
+.arrow {
+  width: 30px;
+  height: 18px;
+  fill: #fff; }
+
+.best__block {
+  width: 30%;
+  text-align: center;
+  margin-right: 40px; }
+
+.block__icons {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 40px; }
+
+.icon {
+  width: 100px;
+  height: 100px; }
+
+.icon__hand {
+  fill: #f8b43a; }
+
+.icon__natural {
+  fill: #8ac03e; }
+
+.icon__meat {
+  fill: #e25028; }
+
+.block__title {
+  font-family: 'Lifehack';
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #2f3234; }
+
+.block__description-text {
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  color: #2f3234; }

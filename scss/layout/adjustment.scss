@@ -20,6 +20,25 @@
   min-width: 940px;
   min-height: 650px; }
 
+  .order__link {
+  background-color: $orange;
+  padding: 10px 17px;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  vertical-align: middle;
+  display: inline-block;
+  transition: .5s;
+  margin-top: 10px;
+
+  &:hover {
+    background-color: darken($orange, 7%);
+  }
+}
+
 .footer {
     height: 58px;
     width: 100%;
