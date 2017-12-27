@@ -1,0 +1,78 @@
+.menu {
+    background: url('../img/bg/menu/1.jpg') center center no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.menu__wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.section-title__menu {
+    margin-top: 100px;
+    margin-left: 100px;
+    color: #fff;
+}
+
+.menu__wrap-left {
+    width: 80px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.menu__wrap-right {
+    width: 500px;
+    height: 100%;
+    background-color: rgba($dark , .9);
+    display: none;
+}
+
+.menu__wrap-left__pic {
+    position: relative;
+    left: -500px;
+}
+
+.menu__cover {  
+    background-color: rgba(#000 , .7);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.menu__title {
+    color: #fff;
+    font-size: 30px;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+}
+
+.menu__title-meet {
+    left: -75%;
+}
+
+.menu__title-vegan {
+    left: -85%;
+}
+
+.menu__title-diet {
+    left: -61%;
+}
+
+.menu__text {
+    color: #fff;
+    font-size: 13px;
+    padding: 60px 35px;
+}
+
+.active {
+    display: table;
+}
+

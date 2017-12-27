@@ -7,7 +7,20 @@
 @import "layout/fonts";
 @import "layout/base";
 @import "layout/adjustment";
+@import "layout/fixed-menu";
+
+
+//common
+@import "layout/btn";
+@import "layout/table";
 
 //sections
 @import "sections/hero";
 @import "sections/best";
+@import "sections/burger";
+@import "sections/team";
+@import "sections/menu";
+@import "sections/reviews";
+@import "sections/order";
+
+

@@ -1,0 +1,66 @@
+.table {
+    position: absolute;
+    background: rgba(#fff, .9);
+    border-radius: 5px;
+    border: none;
+    border-color: transparent;
+    left: 91px;
+    top: 0px;
+    z-index: 20;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.table__row {
+    padding: 3px 20px;
+    min-width: 50px;
+    white-space: nowrap;
+}
+
+.table__row-right {
+    text-align: right;
+}
+
+.table__row-bold {
+    font-weight: bold;
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+.beef {
+    fill: $orange;
+    width: 40px;
+    height: 40px;
+}
+
+.buns {
+    fill: $yellow;
+    width: 40px;
+    height: 40px;
+}
+
+.salad {
+    fill: $green;
+    width: 40px;
+    height: 40px;
+}
+
+.sauce {
+    fill: $orange;
+    width: 40px;
+    height: 40px;
+}
+
+.cucumber {
+    fill: $green;
+    width: 40px;
+    height: 40px;
+}
+
+.cheese {
+    fill: $yellow;
+    width: 40px;
+    height: 40px;
+}
+
+
